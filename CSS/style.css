@@ -6,7 +6,8 @@
     margin: 0;
     padding: 0;
 }
-:root{
+
+:root {
     --Light-Cyan: hsl(193, 38%, 86%);
     --Neon-Green: hsl(150, 100%, 66%);
     --Grayish-Blue: hsl(217, 19%, 38%);
@@ -32,24 +33,24 @@ body {
 }
 
 .advice_ID {
-    color:var(--Neon-Green);
+    color: var(--Neon-Green);
     font-size: 12px;
     text-transform: uppercase;
-    letter-spacing: 4px ;
-    padding-top:1rem;
+    letter-spacing: 4px;
+    padding-top: 1rem;
 }
 
 .advice_text {
-    color:var(--Light-Cyan);
+    color: var(--Light-Cyan);
     font-size: 28px;
-    padding-bottom:  1rem;
+    padding-bottom: 1rem;
     padding: 2rem;
 }
 
 hr {
     display: inline-block;
-    width: 35%; 
-    margin:0.2rem 1rem;   
+    width: 35%;
+    margin: 0.2rem 1rem;
     opacity: 0.1;
 }
 
@@ -61,10 +62,10 @@ span {
 }
 
 button {
-    border:none;
+    border: none;
     background-color: var(--Neon-Green);
-    cursor:pointer;
-    background-image: url("/images/icon-dice.svg");
+    cursor: pointer;
+    background-image: url("../images/icon-dice.svg");
     background-size: 45%;
     background-position: center;
     background-repeat: no-repeat;
@@ -74,31 +75,41 @@ button {
     position: relative;
     transform: translateY(90%);
 }
+
 button:hover {
     box-shadow: 0 0 20px var(--Neon-Green);
 }
 
 footer {
-    bottom:10px;
-    margin:auto;
-    position:fixed;
+    bottom: 10px;
+    margin: auto;
+    position: fixed;
 }
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
 
 
 @media (min-width: 400px) {
     .main_window {
-      max-width: 80%;
+        max-width: 80%;
     }
-  }
+}
+
 @media (min-width: 900px) {
     .main_window {
-      max-width: 60%;
+        max-width: 60%;
     }
-  }
+}
+
 @media (min-width: 1200px) {
     .main_window {
-      max-width: 50%;
+        max-width: 50%;
     }
-  }
+}
