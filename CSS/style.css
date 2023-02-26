@@ -64,7 +64,7 @@ button {
     border:none;
     background-color: var(--Neon-Green);
     cursor:pointer;
-    background-image: url("/images/icon-dice.svg");
+    background-image: url("../images/icon-dice.svg");
     background-size: 45%;
     background-position: center;
     background-repeat: no-repeat;
