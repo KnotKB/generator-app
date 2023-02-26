@@ -30,6 +30,7 @@ body {
     border-radius: 12px;
     min-height: fit-content;
     padding: 1rem;
+    min-width: 50%;
 }
 
 .advice_ID {
