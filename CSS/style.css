@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --Light-Cyan: hsl(193, 38%, 86%);
+    --Neon-Green: hsl(150, 100%, 66%);
+    --Grayish-Blue: hsl(217, 19%, 38%);
+    --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+    --Dark-Blue: hsl(218, 23%, 16%);
+}
+
+body {
+    align-items: center;
+    background: var(--Dark-Blue);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.main_window {
+    text-align: center;
+    background: var(--Dark-Grayish-Blue);
+    border-radius: 12px;
+    min-height: fit-content;
+    padding: 1rem;
+    min-width: 50%;
+    max-width: 70%;
+}
+
+.advice_ID {
+    color:var(--Neon-Green);
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 4px ;
+    padding-top:1rem;
+}
+
+.advice_text {
+    color:var(--Light-Cyan);
+    font-size: 28px;
+    padding-bottom:  1rem;
+    padding: 2rem;
+}
+
+hr {
+    display: inline-block;
+    width: 40%;
+    
+}
+button {
+    border:none;
+    background-color: var(--Neon-Green);
+    cursor:pointer;
+    background-image: url("/images/icon-dice.svg");
+    background-size: 45%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    position: relative;
+    transform: translateY(90%);
+}
+
+footer {
+    bottom:10px;
+    margin:auto;
+    position:fixed;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
